@@ -1,14 +1,6 @@
-<p align="center"> <a href="https://orchid.software/"><img src="https://orchid.software/assets/img/logo-laravel-style.svg" alt="Laravel Orchid" height="64"></a></p>
-
+# Plataforma Orquidea
 
 <h4 align="center">For the full documentation, visit <a href="http://orchid.software">orchid.software</a>.</h4>
-
-<p align="center">
-<a href="https://github.com/orchidsoftware/platform/actions"><img src="https://github.com/orchidsoftware/platform/workflows/Tests/badge.svg"></a>
-<a href="https://codecov.io/gh/orchidsoftware/platform"><img src="https://codecov.io/gh/orchidsoftware/platform/branch/master/graph/badge.svg" /></a>
-<a href="https://packagist.org/packages/orchid/platform"><img alt="Packagist" src="https://img.shields.io/packagist/dt/orchid/platform.svg"></a>
-<a href="https://packagist.org/packages/orchid/platform"><img alt="Packagist Version" src="https://img.shields.io/packagist/v/orchid/platform.svg"></a>
-</p>
 
 ## Introduction
 
