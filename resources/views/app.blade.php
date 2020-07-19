@@ -148,7 +148,6 @@
         <main>
             @yield('body-right')
         </main>
-        @include('footer')
     </div>
 </div>
 
