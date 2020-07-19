@@ -13,8 +13,8 @@
         </a>
         <div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow bg-white">
 
-            {!! Dashboard::menu()->render('Profile','platform::partials.dropdownMenu') !!}
-            <div class="dropdown-divider"></div>
+            {!! Dashboard::menu()->render('Profile','platform::partials.dropdownMenuProfile') !!}
+
             @if(Dashboard::menu()->container->where('location','Profile')->isNotEmpty())
                 <div class="dropdown-divider"></div>
             @endif
