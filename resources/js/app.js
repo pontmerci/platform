@@ -14,3 +14,14 @@ window.Controller = Controller;
 
 const context = require.context('./controllers', true, /\.js$/);
 application.load(definitionsFromContext(context));
+
+$(document).ready(function () {
+    "use strict";
+
+    // Toggle the side navigation
+    $("#sidebarToggle").on("click", function(e) {
+        e.preventDefault();
+        $("body").toggleClass("sb-sidenav-toggled");
+        $("#sidenavAccordion").toggleClass("animate__animated animate__fadeInLeft");
+    });
+});
