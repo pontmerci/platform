@@ -1,5 +1,7 @@
 @extends('platform::app')
-
+@section('nav-menu')
+    {!! Dashboard::menu()->render('Main') !!}
+@endsection
 @section('body-left')
 
     <div class="d-sm-flex d-md-block p-3 mt-md-4 w-100 v-center">
@@ -17,7 +19,7 @@
 
     <nav class="collapse d-md-block w-100 mb-md-5" id="headerMenuCollapse">
 
-        @include('platform::partials.search')
+
 
         @includeWhen(Auth::check(), 'platform::partials.profile')
 
