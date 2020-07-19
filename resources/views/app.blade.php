@@ -53,7 +53,7 @@
     </form>--}}
 @include('platform::partials.search')
 
-@include('platform::partials.notificationProfile')
+{{--@include('platform::partials.notificationProfile')--}}
 
 <!-- Navbar-->
     <ul class="navbar-nav ml-auto ml-md-0">
