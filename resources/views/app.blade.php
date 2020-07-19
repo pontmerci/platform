@@ -66,7 +66,7 @@
 
                 {{--                <a class="dropdown-item" href="login.html">Logout</a>--}}
 
-                {!! Dashboard::menu()->render('Profile','platform::partials.dropdownMenu') !!}
+                {!! Dashboard::menu()->render('Profile','platform::partials.dropdownMenuProfile') !!}
 
                 @if(Dashboard::menu()->container->where('location','Profile')->isNotEmpty())
                     <div class="dropdown-divider"></div>
