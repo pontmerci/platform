@@ -3,7 +3,8 @@
 @import "theme/variables";
 
 // Vendor
-@import "~bootstrap/scss/bootstrap";
+//@import "~bootstrap/scss/bootstrap";
+@import "dashboard/styles";
 @import "~select2/dist/css/select2.min";
 @import "~select2-bootstrap-theme/src/select2-bootstrap";
 @import "~dropzone/dist/min/basic.min";
@@ -23,7 +24,7 @@
 @import "core/buttons";
 @import "core/modals";
 @import "plugins/plugin";
-@import "theme/colors";
+//@import "theme/colors";
 @import "core/utilities";
 @import "core/tables";
 @import "core/form";

@@ -14,18 +14,18 @@
   ],
   "type": "library",
   "license": "MIT",
-  "homepage": "https://orchid.software",
+  "homepage": "http://www.hdsoluciones.com.ar",
   "support": {
-    "issues": "https://github.com/orchidsoftware/platform/issues",
-    "source": "https://github.com/orchidsoftware/platform",
-    "docs": "https://orchid.software/en/docs",
-    "email": "bliz48rus@gmail.com"
+    "issues": "https://github.com/pontmerci/platform/issues",
+    "source": "https://github.com/pontmerci/platform",
+    "docs": "https://www.hdsoluciones.com.ar/platfom/docs",
+    "email": "hola@hdsoluciones.com.ar"
   },
   "authors": [
     {
-      "name": "Alexandr Chernyaev",
-      "email": "bliz48rus@gmail.com",
-      "homepage": "https://tabuna.github.io",
+      "name": "HD Soluciones SRL",
+      "email": "hola@hdsoluciones.srl",
+      "homepage": "http://www.hdsoluciones.com.ar",
       "role": "Developer"
     }
   ],
