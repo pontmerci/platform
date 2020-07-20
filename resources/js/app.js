@@ -1,5 +1,5 @@
-import {Application, Controller} from 'stimulus';
-import {definitionsFromContext} from 'stimulus/webpack-helpers';
+import { Application, Controller } from 'stimulus';
+import { definitionsFromContext } from 'stimulus/webpack-helpers';
 import platform from "./platform";
 
 global.$ = global.jQuery = require('jquery');
@@ -15,8 +15,12 @@ window.Controller = Controller;
 const context = require.context('./controllers', true, /\.js$/);
 application.load(definitionsFromContext(context));
 
-// Toggle the side navigation
-$("#sidebarToggle").on("click", function (e) {
-    e.preventDefault();
-    $("body").toggleClass("sb-sidenav-toggled");
+$(document).ready(function () {
+    // Toggle the side navigation
+    $("#sidebarToggle").on("click", function(e) {
+        console.log('click');
+
+        // e.preventDefault();
+        $("body").toggleClass("sb-sidenav-toggled");
+    });
 });

@@ -142,7 +142,7 @@
         </main>
     </div>
 </div>
-
+@include('platform::partials.toast')
 {{--<div class="app row m-n" id="app" data-controller="@yield('controller')" @yield('controller-data')>
     <div class="container-lg">
         <div class="row">
